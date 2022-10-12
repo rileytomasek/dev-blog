@@ -18,5 +18,6 @@ blog({
     { title: "Twitter", url: "https://twitter.com/rileytomasek" },
     { title: "GitHub", url: "https://github.com/rileytomasek" },
   ],
+  style: `.markdown-body ul { list-style: disc !important; } .markdown-body ol { list-style: decimal !important; }`,
   port: 8012,
 });
