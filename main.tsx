@@ -13,7 +13,7 @@ blog({
   favicon: "https://assets.rile.yt/favicons/favicon.svg",
   avatar: "https://assets.rile.yt/logos/circle-128.svg",
   avatarClass: "rounded-full",
-  ogImage: "https://assets.rile.yt/api/default",
+  ogImage: `https://assets.rile.yt/api/post?title=Snippets%2C%20tools%2C%20and%20techniques%20for%20development.&date=Dev%20Tips`,
   links: [
     { title: "Twitter", url: "https://twitter.com/rileytomasek" },
     { title: "GitHub", url: "https://github.com/rileytomasek" },
