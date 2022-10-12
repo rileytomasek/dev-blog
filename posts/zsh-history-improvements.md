@@ -2,6 +2,7 @@
 title: ZSH History Improvements
 publish_date: 2022-10-03
 description: Improve autocompletion and save more commands
+og:image: https://assets.rile.yt/api/post?date=2022-10-03&title=ZSH%20History%20Improvements
 ---
 
 These `~/.zshrc` updates are helpful if you use history for autocompletion or to reference old commands.

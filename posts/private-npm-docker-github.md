@@ -2,6 +2,7 @@
 title: Private NPM packages with Docker and GitHub Actions
 publish_date: 2022-10-05
 description: How to build Docker images using private NPM packages with GitHub Actions.
+og:image: https://assets.rile.yt/api/post?date=2022-10-05&title=Private%20NPM%20packages%20with%20Docker%20and%20GitHub%20Actions
 ---
 
 Follow these steps to use private NPM packages when deploying applications using the [docker/build-push-action]( https://github.com/docker/build-push-action ) GitHub Action.

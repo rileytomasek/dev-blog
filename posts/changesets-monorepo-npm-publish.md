@@ -2,6 +2,7 @@
 title: Publish monorepo packages with Changesets
 publish_date: 2022-10-01
 description: Painlessly publish public/private packages to NPM from a monorepo.
+og:image: https://assets.rile.yt/api/post?date=2022-10-01&title=Publish%20monorepo%20packages%20with%20Changesets
 ---
 
 [Changesets](https://github.com/changesets/changesets) makes it easy to publish public and/or private packages to NPM from a monorepo.

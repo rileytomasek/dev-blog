@@ -2,6 +2,7 @@
 title: Better switches with Zod and TypeScript
 publish_date: 2022-10-07
 description: Zod discriminated unions for type narrowing switch statements
+og:image: https://assets.rile.yt/api/post?date=2022-10-07&title=Better%20switches%20with%20Zod%20and%20TypeScript
 ---
 
 [Zod discriminated unions](https://github.com/colinhacks/zod#discriminated-unions) allow a switch case to perform automated type narrowing and cause a TypeScript error if a case is missed.

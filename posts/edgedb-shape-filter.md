@@ -2,6 +2,7 @@
 title: Reusable EdgeDB filters with e.shape()
 publish_date: 2022-10-11
 description: Don't write the same filter twice
+og:image: https://assets.rile.yt/api/post?date=2022-20-11&title=Reusable%20EdgeDB%20filters%20with%20e.shape()
 ---
 
 The [EdgeDB TypeScript client](https://www.edgedb.com/docs/clients/js/index) recently added [`e.shape()`](https://www.edgedb.com/docs/clients/js/select#portable-shapes) for portable shapes, but it also works well for DRYing out your filters.
