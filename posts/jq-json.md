@@ -238,6 +238,34 @@ jq '[.locations[]] | {
 ❯ }
 ```
 
+### Working with JSONL
+
+jq can read and write [JSON Lines (.jsonl)](https://jsonlines.org/), which is commonly used in machine learning.
+
+To read JSONL, use the `-s` flag to slurp each row into an array:
+
+```bash
+echo '{"count": 1}\n{"count": 2}' | jq -s '.'
+❯ [
+❯   {
+❯   "count": 1
+❯   },
+❯   {
+❯     "count": 2
+❯   }
+❯ ]
+```
+
+To output JSONL, use the command line flag `-c`:
+
+```bash
+echo '{"count": 1}\n{"count": 2}' | \
+  jq -s '.[] | { "count": (.count * 2) }' | \
+  jq -c
+❯ {"count":2}
+❯ {"count":4}
+```
+
 ### Conclusion
 
 While somewhat confusing to learn and remember, [jq](https://stedolan.github.io/jq/) is a powerful tool for quick JSON analysis and transformations from the command line.
